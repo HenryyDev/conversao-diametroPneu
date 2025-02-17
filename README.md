@@ -28,12 +28,17 @@ Classes dinâmicas como .viavel e .inviavel para indicar diferentes estados visu
 
 ## 🖥️ Funcionalidade (JavaScript) 
 
-O arquivo script.js adiciona interatividade ao projeto, incluindo:
+Cálculo do diâmetro total das rodas baseado na largura, série e aro.
 
-Manipulação do DOM para apresentar
+Cálculo da diferença absoluta e percentual entre o diâmetro original e o desejado.
 
-Event listeners para capturar ações do usuário.
+Indicação visual se a troca é viável (dentro do limite de 3,5%) ou inviável.
 
-Cálculos e atualizações dinâmicas na interface.
+## 📜 Como Funciona
+
+- Informe as medidas do conjunto de rodas original e do desejado.
+- O script calculará o diâmetro total de cada conjunto.
+- Será exibida a diferença absoluta em milímetros e a variação percentual.
+- Se a variação for maior que 3,5%, será indicado que a troca não é possível.
 
 
